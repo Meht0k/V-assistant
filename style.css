@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color_0: rgb(255, 255, 255);
+    --color_1: rgb(255, 255, 255);
+    --color_2: rgb(0, 0, 0);
+    --color_3: rgb(237, 28, 36);
+    --color_4: rgb(0, 136, 203);
+    --color_5: rgb(255, 203, 5);
+    --color_6: rgb(114, 114, 114);
+    --color_7: rgb(176, 176, 176);
+    --color_8: rgb(255, 255, 255);
+    --color_9: rgb(114, 114, 114);
+    --color_10: rgb(176, 176, 176);
+    --color_11: rgb(255, 255, 255);
+    --color_12: rgb(247, 247, 247);
+    --color_13: rgb(205, 207, 212);
+    --color_14: rgb(138, 141, 153);
+    --color_15: rgb(41, 47, 69);
+    --color_16: rgb(255, 217, 217);
+    --color_17: rgb(234, 111, 102);
+    --color_18: rgb(181, 71, 63);
+    --color_19: rgb(115, 45, 40);
+    --color_20: rgb(66, 32, 32);
+    --color_21: rgb(234, 239, 249);
+    --color_22: rgb(200, 214, 252);
+    --color_23: rgb(121, 141, 200);
+    --color_24: rgb(69, 81, 122);
+    --color_25: rgb(37, 46, 57);
+    --color_26: rgb(228, 244, 232);
+    --color_27: rgb(186, 206, 192);
+    --color_28: rgb(157, 175, 163);
+    --color_29: rgb(129, 144, 136);
+    --color_30: rgb(92, 102, 98);
+    --color_31: rgb(255, 244, 243);
+    --color_32: rgb(247, 227, 224);
+    --color_33: rgb(229, 203, 199);
+    --color_34: rgb(181, 162, 160);
+    --color_35: rgb(135, 127, 126);
+    --color_36: rgb(255, 255, 255);
+    --color_37: rgb(41, 47, 69);
+    --color_38: rgb(247, 247, 247);
+    --color_39: rgb(205, 207, 212);
+    --color_40: rgb(138, 141, 153);
+    --color_41: rgb(181, 71, 63);
+    --color_42: rgb(41, 47, 69);
+    --color_43: rgb(205, 207, 212);
+    --color_44: rgb(255, 255, 255);
+    --color_45: rgb(41, 47, 69);
+    --color_46: rgb(41, 47, 69);
+    --color_47: rgb(247, 247, 247);
+    --color_48: rgb(181, 71, 63);
+    --color_49: rgb(181, 71, 63);
+    --color_50: rgb(255, 255, 255);
+    --color_51: rgb(255, 255, 255);
+    --color_52: rgb(181, 71, 63);
+    --color_53: rgb(181, 71, 63);
+    --color_54: rgb(205, 207, 212);
+    --color_55: rgb(205, 207, 212);
+    --color_56: rgb(255, 255, 255);
+    --color_57: rgb(255, 255, 255);
+    --color_58: rgb(181, 71, 63);
+    --color_59: rgb(181, 71, 63);
+    --color_60: rgb(181, 71, 63);
+    --color_61: rgb(181, 71, 63);
+    --color_62: rgb(255, 255, 255);
+    --color_63: rgb(255, 255, 255);
+    --color_64: rgb(205, 207, 212);
+    --color_65: rgb(205, 207, 212);
+
+
+    /* fonts */
+    --font_0: normal normal bold 60px/1.4em futura-lt-w01-book, futura-lt-w05-book, sans-serif;
+    --font_1: normal normal normal 16px/1.4em din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
+    --font_2: normal normal bold 35px/1.4em futura-lt-w01-book, futura-lt-w05-book, sans-serif;
+    --font_3: normal normal normal 23px/1.4em futura-lt-w01-book, futura-lt-w05-book, sans-serif;
+    --font_4: normal normal bold 23px/1.4em futura-lt-w01-light, futura-lt-w05-light, sans-serif;
+    --font_5: normal normal bold 20px/1.4em futura-lt-w01-book, futura-lt-w05-book, sans-serif;
+    --font_6: normal normal normal 19px/1.4em futura-lt-w01-book, futura-lt-w05-book, sans-serif;
+    --font_7: normal normal normal 21px/1.4em futura-lt-w01-light, futura-lt-w05-light, sans-serif;
+    --font_8: normal normal normal 18px/1.4em futura-lt-w01-light, futura-lt-w05-light, sans-serif;
+    --font_9: normal normal normal 16px/1.4em futura-lt-w01-light, futura-lt-w05-light, sans-serif;
+    --font_10: normal normal normal 12px/1.4em din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    --font_0: normal normal bold 60px/1.4em futura-lt-w01-book, futura-lt-w05-book, sans-serif;
+}
+
+.header-content {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%);
+    text-align: center;
+    color: var(--color_0);
+    --font_0: norm al normal bold 60px/1.4em futura-lt-w01-book, futura-lt-w05-book, sans-serif;
+}
+
+.header {
+    background: url(images/bg-img.jpg) repeat no-repeat;
+    background-size: cover;
+}
+
+.header-content h1 {
+    font-size: 4rem;
+}
+
+.header-content p {
+    font-size: 1.5rem;
+}
+
+.btn {
+    background: var(--color_17);
+    color: var(--color_2);
+    font-weight: 100;
+    border: none;
+    padding: .5rem 2rem;
+    border-radius: 0;
+}
+
+.btn:hover {
+    background: var(--color_0);
+    color: var(--color_2) !important;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    height: 6rem;
+}
+
+.header {
+    height: 90vh;
+    width: 100%;
+}
+
+.navbar-toggler-icon {
+    color: var(--color_0) !important;
+}
+
+.navbar-brand img {
+    height: 5rem;
+}
+
+.header img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.top-nav {
+    background: var(--color_15);
+}
+
+/* .nav-list{
+    position: absolute;
+    top: 6rem;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transition: all .5s;
+    background: #0000004e;
+    backdrop-filter: blur(8px);
+} */
+
+
+.container-fluid span {
+    color: var(--color_0);
+}
+
+.nav-link:focus {
+    color: var(--color_17);
+}
+
+.nav-link {
+    color: var(--color_0);
+    gap: .5rem;
+}
+
+.nav-link a:active {
+    color: var(--color_0);
+}
+
+.nav-link i {
+    color: var(--color_0);
+}
+
+.nav-link i:hover {
+    color: var(--color_17);
+    transition: all .3s;
+    transform: scale(120%);
+}
+
+.nav-link:hover {
+    color: var(--color_17);
+}
+
+/* .navbar-brand {
+    color: var(--color_17);
+} */
+.active {
+    color: var(--color_17) !important;
+}
+
+.hero-card {
+    margin-top: -10%;
+    background: var(--color_0);
+    border: none;
+    border-radius: 0;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    width: 900px;
+    height: auto;
+    padding: 5rem;
+}
+
+.hero-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card-title {
+    line-height: none;
+}
+
+.blockquote {
+    margin: 1rem 0 1rem 0;
+}
+
+.btn-dark {
+    width: 15%;
+}
+
+.bg-color {
+    height: auto;
+    width: 100%;
+    background: var(--color_37);
+
+
+}
+
+.color-white {
+    color: var(--color_0);
+}
+
+.blockquote h2 {
+    font-size: 2.2rem;
+}
+
+.bi-quote {
+    color: var(--color_37);
+}
+
+.shadow {
+    box-shadow: 0 0 1px 20px rgba(0, 0, 0, 0.1);
+    z-index: 899;
+}
+
+.last img {
+    height: auto;
+    width: auto;
+    object-fit: cover;
+}
+
+.cl-21 {
+    background: var(--color_21);
+}
+
+.footer {
+    border-top: .1rem solid var(--color_0);
+    background: var(--color_37);
+    color: var(--color_0);
+}
+
+.footer p {
+    font-size: 1rem;
+}
+
+.card-btn {
+    width: 35%;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+
+    .navbar-nav {
+        position: absolute;
+        width: 100%;
+        background: rgba(41, 47, 69, 0.307);
+        backdrop-filter: blur(8px);
+        top: 5.9rem;
+        left: 0;
+    }
+
+    .footer p {
+        font-size: .7rem;
+    }
+
+    .color-white h2 {
+        font-size: 1.7rem;
+    }
+
+    .brand h3 {
+        font-size: 1.2rem;
+    }
+
+    .card-btn {
+        width: 75%;
+    }
+
+    .hero-card h1 {
+        font-size: 1.5rem;
+    }
+
+    .header-top-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+    }
+
+    .navbar {
+        padding: 0;
+    }
+
+    .header-top-content h1 {
+        font-size: 2.5rem;
+    }
+}
